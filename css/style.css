@@ -26,7 +26,7 @@ header {
 	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 60px;
-	background-image: url("../images/stars.jpeg");
+	background-image: url("./images/stars.jpeg");
 }
 
 header h1 {
