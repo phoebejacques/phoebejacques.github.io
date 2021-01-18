@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 68px;
+  text-align: center;
+  font-family: 'Epilogue', sans-serif;
+  
+}
+
+.grid {
+  display: flex;
+}
+
+.grid div {
+  flex: 1;
+  height: 200px;
+  background-color: #f7dcc3;
+  margin: 20px;
+  font-size: 68px;
+}
+
+.grid .one {
+  background-color: #fa8435;
+  height: 600px;
+  width: fit-content
+}
+
+.grid .two {
+  background-color: rgb(240, 57, 57);
+  height: 600px;
+  width: fit-content
+}
+
+.grid .three {
+  background-color: rgb(191, 122, 197);
+  height: 600px;
+  width: fit-content
+}
+
+.grid .four {
+  background-color: rgb(245, 189, 37);
+  height: 600px;
+  width: fit-content
+}
