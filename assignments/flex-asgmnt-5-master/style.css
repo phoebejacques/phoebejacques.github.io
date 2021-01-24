@@ -35,8 +35,9 @@
   
   img {
     border: 5px solid cornflowerblue;
-    height: 300px;
-    overflow:hidden;
+    object-fit: cover;
+    width:400px;
+    height:400px;
   }
   .card {
     margin-bottom: 10px;
@@ -54,10 +55,7 @@
   .gallery div {
      
     flex: 25%;
-    padding-top: 50 px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    
    
   }
   
