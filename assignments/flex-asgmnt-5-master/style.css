@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 100 px;
+    padding-top: 25 px;
+  }
+  
+  header,
+  main {
+    width: 80%;
+    margin: 40px auto;
+  }
+  
+  
+  .news {
+    display: flex;
+    margin-bottom: 60px;
+  }
+  
+  .news .left {
+    flex: 1;
+  }
+  .news .right {
+    flex: 3;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    border: 5px solid cornflowerblue;
+    height: 300px;
+    overflow:hidden;
+  }
+  .card {
+    margin-bottom: 10px;
+}
+
+.image{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.image img{
+    position:absolute;
+}
+  
+  .gallery div {
+     
+    flex: 25%;
+    padding-top: 50 px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+  }
+  
+  h1 {
+      font-family: 'Sigmar One', cursive;
+    text-align: center;
+    color: white
+}
+  h2 {
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 100 px;
+    padding-top: 25 px;
+  }
+  
+    
+  
+  h1 {
+    font-size: 60px;
+    line-height: 68px;
+    margin-bottom: 20px;
+    background-color: black;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+  }
+  
