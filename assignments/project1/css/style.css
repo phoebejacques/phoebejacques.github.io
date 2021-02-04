@@ -1,0 +1,81 @@
+/* Enter your Styles below! */
+
+body { 
+    font-size: 48px;
+    color: rgb(44, 27, 34);
+    font-family: hwt-etta-east, sans-serif;
+    font-size: 16px;
+    background-color: rgb(206, 53, 39);
+     }
+
+
+
+
+h1, h2, h3, h4 {
+font-family: hwt-etta-eas, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(44, 27, 34);
+    font-family: hwt-etta-eas, sans-serif;
+font-style: normal;
+font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+h2 {
+    font-size: 12px;
+    color: rgb(44, 27, 34);
+    font-family: paralucent, sans-serif;
+font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 24px;
+}
+
+blockquote {
+    margin: 20px 60px;
+    font-family: Helvetica, sans-serif;
+}
+
+header {margin-bottom: 20px;}
+
+/* ensures that your images stretch the width of their containers */
+img { width: 100%; }
+
+a { 
+    color: red;
+    text-decoration: none;
+     }
+a:hover { color: black; }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    width: 60%;
+    margin: auto;
+}
+
+.grid div {
+    
+    padding: 20px;
+}
+
+@media only screen and (min-width:768px) {
+
+}
+
+@media only screen and (min-width:1224px) {
+
+}
