@@ -20,16 +20,16 @@ font-weight: 400;
 h1 {
     font-size: 48px;
     color: rgb(44, 27, 34);
-    font-family: hwt-etta-eas, sans-serif;
+    font-family: hwt-etta-east, sans-serif;
 font-style: normal;
 font-weight: 400;
-    text-align: center;
     padding-top: 50px;
+    text-align: center;
 
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 18px;
     color: rgb(44, 27, 34);
     font-family: paralucent, sans-serif;
 font-weight: 400;
@@ -63,7 +63,7 @@ a:hover { color: black; }
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
