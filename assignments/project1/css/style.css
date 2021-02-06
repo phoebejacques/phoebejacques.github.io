@@ -3,8 +3,9 @@
 body { 
     font-size: 48px;
     color: rgb(44, 27, 34);
-    font-family: hwt-etta-east, sans-serif;
-    font-size: 16px;
+    font-family: abigail, sans-serif;
+font-weight: 400;
+font-style: normal;
     background-color: rgb(206, 53, 39);
      }
 
@@ -12,17 +13,17 @@ body {
 
 
 h1, h2, h3, h4 {
-font-family: hwt-etta-eas, sans-serif;
-font-style: normal;
-font-weight: 400;
+    font-family: abigail, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
     font-size: 48px;
     color: rgb(44, 27, 34);
-    font-family: hwt-etta-east, sans-serif;
-font-style: normal;
-font-weight: 400;
+    font-family: abigail, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-top: 50px;
     text-align: center;
 
@@ -51,14 +52,33 @@ blockquote {
 header {margin-bottom: 20px;}
 
 /* ensures that your images stretch the width of their containers */
-img { width: 100%; }
+.hover {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 40%;
+	margin: auto;
+}
 
-a { 
-    color: red;
-    text-decoration: none;
-     }
-a:hover { color: black; }
+.hover img {width: 100%;}
 
+
+
+ .heart1, .heart2, .heart3, .heart4 {
+        position: relative;
+        display: inline-block;
+}
+
+
+.heart1 .img-top, .heart2 .img-top, .heart3 .img-top, .heart4 .img-top{
+        display: none;
+
+    }
+    .heart1:hover .img-top, .heart2:hover .img-top, .heart3:hover .img-top, .heart4:hover .img-top{
+        display: inline;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
