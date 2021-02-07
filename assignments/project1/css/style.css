@@ -15,6 +15,9 @@ font-style: normal;
         margin-right: auto;
         width: 50%;
       }
+.homepage {
+    margin-bottom: 100px;
+}
 
 
 
@@ -62,7 +65,7 @@ header {margin-bottom: 20px;}
 .hover {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	width: 40%;
+	width:80%;
 	margin: auto;
 }
 
