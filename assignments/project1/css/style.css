@@ -97,6 +97,25 @@ header {margin-bottom: 20px;}
     margin: auto;
 }
 
+
+
+.container {
+    position: absolute;
+    margin-left: 100px;
+    text-align: left;
+    color: rgb(44, 27, 34);
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:400px;
+    width:250px;
+    overflow:auto;
+  }
+
 .grid div {
     
     padding: 20px;
