@@ -116,6 +116,12 @@ header {margin-bottom: 20px;}
     overflow:auto;
   }
 
+  .nextpage {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+  }
 .grid div {
     
     padding: 20px;
