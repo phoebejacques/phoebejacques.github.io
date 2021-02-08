@@ -23,7 +23,7 @@ font-style: normal;
 
 
 h1, h2, h3, h4 {
-    font-family: hwt-etta-east, sans-serif;
+    font-family: paralucent, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 48px;
     color: rgb(44, 27, 34);
-    font-family: hwt-etta-east, sans-serif;
+    font-family: paralucent, sans-serif;
     font-weight: 400;
     font-style: normal;
     padding-top: 50px;
@@ -48,7 +48,12 @@ font-weight: 400;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(44, 27, 34);
+    font-family: paralucent, sans-serif;
+font-weight: 400;
+    font-style: normal;
 }
 h4 {
     font-size: 24px;
@@ -116,16 +121,40 @@ header {margin-bottom: 20px;}
     overflow:auto;
   }
 
+  .container2 {
+    position: absolute;
+   align-content: center;
+    text-align: center;
+    color: rgb(44, 27, 34);
+  }
+
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    width:500px;
+    
+  }
+
   .nextpage {
     position: absolute;
     right: 20px;
     bottom: 20px;
 
   }
+
+  
+  
 .grid div {
     
     padding: 20px;
 }
+
+
+
+
 
 @media only screen and (min-width:768px) {
 
