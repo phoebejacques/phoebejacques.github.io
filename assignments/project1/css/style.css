@@ -1,191 +1,201 @@
 /* Enter your Styles below! */
 
-body { 
-    font-size: 48px;
-    color: rgb(44, 27, 34);
-    font-family: hwt-etta-east, sans-serif;
-font-weight: 400;
-font-style: normal;
-    background-color: rgb(206, 53, 39);
-    cursor: url(cursor-16.png), auto;
-     }
-
-     #page1 { 
-        background-color:rgb(243,236,222);
-         }
-
-     .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-.homepage {
-    margin-bottom: 100px;
+body {
+  font-size: 48px;
+  color: rgb(44, 27, 34);
+  font-family: hwt-etta-east, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(206, 53, 39);
+  cursor: url(cursor-16.png), auto;
 }
 
+#page1 {
+  background-color: rgb(243, 236, 222);
+}
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+.homepage {
+  margin-bottom: 100px;
+}
 
-
-h1, h2, h3, h4 {
-    font-family: paralucent, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+h1,
+h2,
+h3,
+h4 {
+  font-family: paralucent, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
-    font-size: 48px;
-    color: rgb(44, 27, 34);
-    font-family: paralucent, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-top: 50px;
-    text-align: center;
-
+  font-size: 48px;
+  color: rgb(44, 27, 34);
+  font-family: paralucent, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 50px;
+  text-align: center;
 }
 
 h2 {
-    font-size: 18px;
-    color: rgb(44, 27, 34);
-    font-family: paralucent, sans-serif;
-font-weight: 400;
-    font-style: normal;
+  font-size: 18px;
+  color: rgb(44, 27, 34);
+  font-family: paralucent, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h3 {
-    font-size: 24px;
-    text-align: center;
-    color: rgb(44, 27, 34);
-    font-family: paralucent, sans-serif;
-font-weight: 400;
-    font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(44, 27, 34);
+  font-family: paralucent, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h4 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 blockquote {
-    margin: 20px 60px;
-    font-family: Helvetica, sans-serif;
+  margin: 20px 60px;
+  font-family: Helvetica, sans-serif;
 }
 
-header {margin-bottom: 20px;}
+header {
+  margin-bottom: 20px;
+}
 
 /* ensures that your images stretch the width of their containers */
 .hover {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	width:80%;
-	margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  margin: auto;
 }
 
-.hover img {width: 100%;}
-
-
-
- .heart1, .heart2, .heart3, .heart4 {
-        position: relative;
-        display: inline-block;
+.hover img {
+  width: 100%;
 }
 
+.heart1,
+.heart2,
+.heart3,
+.heart4 {
+  position: relative;
+  display: inline-block;
+}
 
-.heart1 .img-top, .heart2 .img-top, .heart3 .img-top, .heart4 .img-top{
-        display: none;
-
-    }
-    .heart1:hover .img-top, .heart2:hover .img-top, .heart3:hover .img-top, .heart4:hover .img-top{
-        display: inline;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+.heart1 .img-top,
+.heart2 .img-top,
+.heart3 .img-top,
+.heart4 .img-top {
+  display: none;
+}
+.heart1:hover .img-top,
+.heart2:hover .img-top,
+.heart3:hover .img-top,
+.heart4:hover .img-top {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-    width: 80%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  width: 80%;
+  margin: auto;
 }
-
-
 
 .container {
-    position: absolute;
-    margin-left: 100px;
-    text-align: left;
-    color: rgb(44, 27, 34);
-    
-  }
+  position: absolute;
+  margin-left: 100px;
+  text-align: left;
+  color: rgb(44, 27, 34);
+}
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height:400px;
-    width:250px;
-    overflow:auto;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 250px;
+  overflow: auto;
+}
 
-  .container2 {
-    position: absolute;
-   align-content: center;
-    text-align: center;
-    color: rgb(44, 27, 34);
-  }
+.container2 {
+  position: relative;
+  align-content: center;
+  text-align: center;
+  color: rgb(44, 27, 34);
+}
 
 .centered2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- 
-    width:500px;
-    
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  .nextpage {
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    
+  width: 500px;
+}
 
-  }
+.nextpage {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
 
-  .lovecalctext {
-        font-size: 24px;
-        text-align: center;
-        color: rgb(44, 27, 34);
-        font-family: paralucent, sans-serif;
-    font-weight: 400;
-        font-style: normal;
+.lovecalctext {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(44, 27, 34);
+  font-family: paralucent, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  }
-
-  
-  
 .grid div {
-    
-    padding: 20px;
+  padding: 20px;
 }
 
 .image2 {
-    margin-right: 300px;
-    margin-top: 75 px;
+  margin-right: 300px;
+  margin-top: 75 px;
 }
 
 .image3 {
-    margin-right: 250px;
+  margin-right: 250px;
 }
 
-
-
-
-
-@media only screen and (min-width:768px) {
-
+.heart-box {
+  background-image: url("../heart-16.png");
+  background-size: 700px;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 900px;
+  width: 700px;
 }
 
-@media only screen and (min-width:1224px) {
+.heart-box #lovecalc {
+  padding-top: 200px;
+}
 
+.heart-box h1 {
+  padding-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1224px) {
 }
