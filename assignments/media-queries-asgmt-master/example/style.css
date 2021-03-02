@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: greenyellow;
+}
+.feature {
+  display: flex;
+  margin: 0, auto;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 38px;
+}
+h2 { font-size: 20px;
+  font-weight: bold;
+  line-height: 22px;
+}
+header h2 {font-weight: normal;}
+header {
+  width: 90%;
+  margin: auto;
+}
+img {width: 100%}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+  body {
+    background-color: pink;
+  }
+  h1 {font-size: 60px}
+  .h2 {font-size: 32px;}
+  header h2 {font-weight: bold;}
+}
+.feature {
+  flex-direction: row;
+  margin: 10px;
+  width: 80%
+}
+
+  
+
+
+
+
+
