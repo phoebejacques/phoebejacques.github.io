@@ -1,8 +1,34 @@
-body {
-    font-size: 48px;
-    color: rgb(44, 27, 34);
-    font-family: hwt-etta-east, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+h1 {
+  font-family: obviously-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;}
+  
+  body {
+  font-family: obviously, sans-serif;
+  font-weight: 400;
+  font-style: normal;
     background-color: rgb(38, 39, 38);
+  }
+
+  .square {
+    background-color: cadetblue;
+    width: 200 px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .left{
+    display: block;
+    margin-left: 20px;
+   
   }
