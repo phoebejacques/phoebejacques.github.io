@@ -14,7 +14,7 @@ h1 {
   }
   /* Dropdown Button */
   .dropbtn {
-    
+    background-image: "sunlanmenubutton-14.png";
     padding: 50px;
   }
   
@@ -109,4 +109,21 @@ h1 {
     display: block;
     margin-left: 20px;
    
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  
+  .column img {
+    margin-top:10px;
+    vertical-align: middle;
   }
