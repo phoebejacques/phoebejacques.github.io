@@ -8,18 +8,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="dropdown"style= "float:right;" >
-        <div class="dropbtn" ></div>
-        <div class="dropdown-content" >
-          <a href="index2.html">About</a>
-          <a href="index3.html">Gallery</a>
-          <a href="index4.html">Contact</a>
+
+        <div class="dropdown">
+          <img src="sunlanmenubutton-14.png" width="50px" onclick="myFunction()" class="dropbtn"></img>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index2.html">About</a>
+            <a href="index3.html">Gallery</a>
+            <a href="index4.html">Contact</a>
+          </div>
         </div>
       </div>
+      <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
     <header>
-    <a href= "index2.html">
+      
         <img src= "sunlanlogo3-12.png" width= "500" class= "center">
-    </a>
+    
 </header>
 
     
