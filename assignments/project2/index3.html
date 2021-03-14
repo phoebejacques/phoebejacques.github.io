@@ -12,26 +12,56 @@
 
 <body>
     <div class= "title">
-        <p style="float: left;"><img src= "sunlanlamp-13.png" width= "200" class= "left"></p>
-        <p style="color: rgb(238, 234, 224)" class="center">GALLERY</p>
+        <p style="float: left;"><img src= "sunlanlamp-13.png"  class= "left"></p>
+        <p style="color: rgb(242, 197, 63)" class="center">GALLERY</p>
     </div>
     <div class="row"> 
         <div class="column">
-          <img src="Screen Shot 2021-03-10 at 3.55.01 PM.png" >
-          <img src="2019-09-13.jpg" >
-          <img src="Screen Shot 2021-03-10 at 3.55.12 PM.png" >
-          <img src="2020-11-07-1.jpg" >
-          <img src="Screen Shot 2021-03-10 at 3.56.29 PM.png" >
+            <img src="drawings_sunlan-02.png">
+            <img src="sunlandrawings-12.png">
           <img src="2020-11-07-2.jpg" >
-          <img src="Screen Shot 2021-03-10 at 3.56.38 PM.png" >
-          <img src="2021-01-14-1.jpg" >
-          <img src="Screen Shot 2021-03-10 at 3.56.53 PM.png" >
-          <img src="2021-01-14-2.jpg" >
-          <img src="Screen Shot 2021-03-10 at 3.57.03 PM.png" >
-          <img src="2021-01-14-3.jpg" >
+          <img src="sunlandrawings-03.png">
+          <img src="sunlandrawings-04.png">
+          <img src="sunlandrawings-05.png">
+          <img src="sunlandrawings-06.png">
+          <img src="sunlandrawings-07.png">
+          <img src="sunlandrawings-08.png">
+          <img src="sunlandrawings-09.png">
+          <img src="sunlandrawings-11.png">
+          <img src="2019-09-13.jpg" >
         </div>
     <header>
-   
+        <div class="dropdown" >
+            <img src="sunlanmenubutton-14.png" width="50px" onclick="myFunction()" class="dropbtn"></img>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="index2.html">About</a>
+              <a href="index3.html">Gallery</a>
+              <a href="index4.html">Contact</a>
+            </div>
+          </div>
+        </div>
+        <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
     
     </a>
    

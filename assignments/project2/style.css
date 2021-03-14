@@ -5,6 +5,7 @@ h1 {
   font-size: 72px;
   
 }
+
   
   body {
   font-family: obviously, sans-serif;
@@ -20,6 +21,9 @@ h1 {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  position:absolute;
+  top: 20px;
+  right: 20px;
   
 }
 
@@ -38,8 +42,10 @@ h1 {
 .dropdown-content {
   display: none;
   position: absolute;
+  top:75px;
+  right:25px;
   background-color: rgb(238, 234, 224);
-  min-width: 160px;
+  min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -70,8 +76,9 @@ h1 {
 
   .left {
   width: 200px;
-  position: relative;
+  position: absolute;
   margin-left: 50px;
+  left:50px;
   margin-top: -140px;
   }
 
@@ -81,6 +88,7 @@ h1 {
     background-color: rgb(242, 197, 63);
     width: 80%;
     height: 40%;
+    max-width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -110,11 +118,13 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    
   }
 
   .left{
+    width: 200px;
     display: block;
-    margin-left: 20px;
+    margin-left: 100px;
    
   }
 
@@ -124,25 +134,36 @@ h1 {
     padding: 5px;
   }
 
+  .bottom {
+    position:absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+
   
   
   /* Create two equal columns that sits next to each other */
   .column {
-  
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-right:50px;
     flex: 50%;
     padding: 5px;
+    vertical-align: middle;
   }
   
+
   .column img {
-    width: 200px;
+    width: 350px;
     height: auto;
-    margin-top:10px;
+    margin:15px;
     vertical-align: middle;
   }
 
   @media only screen and (max-width: 768px) {
     .square {
       background-color: rgb(242, 197, 63);
+      margin-top:15px;
       width: 80%;
       height: 40%;
       display: block;
@@ -156,7 +177,7 @@ h1 {
     }
 
     .column {
-  
+      margin-top: -30px;
       flex: 50%;
       padding: 5px;
     }
@@ -164,7 +185,27 @@ h1 {
     .column img {
       width: 100%;
       height: auto;
-      margin-top:10px;
+    margin: 5px;
       vertical-align: middle;
     }
+
+    .left {
+      width:100px;
+      position: absolute;
+      margin-left: 20px;
+      left:30px;
+      margin-top: -100px;
+      }
+
+      .center {
+      font-size: 60px;
+      
+      }
+      .dropbtn {
+        width: 35px;
+      }
+
+      .square {
+        font-size: 14px;
+      }
   }
