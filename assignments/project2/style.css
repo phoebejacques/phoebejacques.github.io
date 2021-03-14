@@ -198,6 +198,7 @@ h1 {
       }
 
       .center {
+      align-content: center;
       font-size: 60px;
       
       }
@@ -206,6 +207,9 @@ h1 {
       }
 
       .square {
+        font-size: 14px;
+      }
+      .bottom {
         font-size: 14px;
       }
   }
